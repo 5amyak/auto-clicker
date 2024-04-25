@@ -9,7 +9,7 @@ const screenNametoXPathMap = new Map([
 ]);
 
 
-console.log('Running auto login on :: ', window.location.href);
+console.log('Running auto clicker on :: ', window.location.href);
 setTimeout(() => main(0), 150);
 
 function main(attemptCount) {
